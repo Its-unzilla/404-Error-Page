@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="description" content="Oops! Looks like you hit a dead end. Let's get you back on track.">
+  <title>404 - Page Not Found</title>
+   <link rel="icon" type="image/png" href="https://img.icons8.com/emoji/48/robot-emoji.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container" role="main" aria-labelledby="pageTitle">
+    <div class="illustration">
+      <!-- Inline animated SVG robot -->
+      <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <rect x="50" y="50" width="100" height="100" rx="20" fill="#ddd" stroke="#999" stroke-width="4"/>
+        <circle class="eye" cx="75" cy="90" r="10" fill="#333" />
+        <circle class="eye" cx="125" cy="90" r="10" fill="#333" />
+        <line x1="100" y1="50" x2="100" y2="30" stroke="#999" stroke-width="4"/>
+        <circle cx="100" cy="25" r="5" fill="#ff6f61" />
+        <rect x="85" y="120" width="30" height="10" rx="5" fill="#666" />
+      </svg>
+    </div>
+    <h1 id="pageTitle">Oops! 404</h1>
+    <p>Looks like this page wandered off... probably chasing digital butterflies 🦋</p>
+    <a href="/" class="home-btn" role="button">Return Home</a>
+  </main>
+
+  <script>
+    // Optional: Log the 404 for analytics or future handling
+    console.warn("404 - Page not found.");
+  </script>
+</body>
+</html>
